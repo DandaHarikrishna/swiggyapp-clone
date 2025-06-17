@@ -1,0 +1,91 @@
+.container {
+ width: 100vw;               /* full viewport width */
+  height: 100vh;              /* full viewport height */
+  background-color: #fc8019;  /* swiggy orange */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;   
+  box-sizing: border-box;
+}
+
+.login-btn {
+  position: absolute;
+  top: 2rem;
+  right: 8rem;
+  background-color: black;
+  color: white;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+} 
+.app-btn {
+  position: absolute;
+  top: 2rem;
+  right: 16rem;
+  border: 2px solid white;       /* White border */
+  background-color: #FC8019;
+  color: white;
+  padding: 1rem 2.5rem;
+  
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+} 
+.corporate-url {
+  position: absolute;
+  top: 2rem;
+  right: 34rem;
+   text-decoration: none;
+  color: white;
+  padding: 1rem 2.5rem;
+ 
+  font-weight: bold;
+  cursor: pointer;
+} 
+
+.partnerwith-url {
+  position: absolute;
+  top: 2rem;
+  right: 25rem;
+   text-decoration: none;
+  color: white;
+  padding: 1rem 2.5rem;
+ 
+  font-weight: bold;
+  cursor: pointer;
+} 
+
+.swiggy-logo {
+  position: absolute;
+  
+  left: 8rem;
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.swiggy-logo-fruit {
+  position: absolute;
+  top:6rem;
+   /* display: flex; */
+  height: 500px;
+  width: 250px;
+  /* border-radius: 8px; */
+  /* object-fit: contain; */
+}
+
+.centered-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+         
