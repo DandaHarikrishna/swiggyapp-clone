@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <img src={SIGGY_LOGO_URL} alt="Swiggy Logo" className="swiggy-logo" />
-      <button className="login-btn">Sign in</button>
+      <button className="login-btn">Sign in </button>
       <a
         className="corporate-url"
         href="https://www.swiggy.com/corporate/"

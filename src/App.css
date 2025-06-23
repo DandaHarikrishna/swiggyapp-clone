@@ -7,6 +7,7 @@
   position: relative;
   overflow-x: hidden;   
   box-sizing: border-box;
+  
 }
 
 .login-btn {
@@ -29,7 +30,6 @@
   background-color: #FC8019;
   color: white;
   padding: 1rem 2.5rem;
-  
   border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -41,7 +41,6 @@
    text-decoration: none;
   color: white;
   padding: 1rem 2.5rem;
- 
   font-weight: bold;
   cursor: pointer;
 } 
@@ -50,17 +49,15 @@
   position: absolute;
   top: 2rem;
   right: 25rem;
-   text-decoration: none;
+  text-decoration: none;
   color: white;
   padding: 1rem 2.5rem;
- 
   font-weight: bold;
   cursor: pointer;
 } 
 
 .swiggy-logo {
   position: absolute;
-  
   left: 8rem;
   height: 150px;
   width: 150px;
@@ -71,13 +68,19 @@
 .swiggy-logo-fruit {
   position: absolute;
   top:6rem;
-   /* display: flex; */
+ 
   height: 500px;
   width: 250px;
-  /* border-radius: 8px; */
-  /* object-fit: contain; */
+   
 }
-
+.swiggy-logo-suchi {
+  position: absolute;
+  top:6rem;
+  right: 0;
+  height: 500px;
+  width: 250px;
+   
+}
 .centered-text {
   position: absolute;
   top: 35%;
@@ -88,4 +91,63 @@
   font-weight: bold;
   font-size: 40px;
 }
+.delivery-location {
+  position: absolute;
+  top: 20rem;
+  left: 18rem;
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-indent: 30px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-restaurant {
+  position: absolute;
+  top: 20rem;
+  left: 36rem;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.food-delivery-form {
+  position: absolute;
+  top:25rem;
+  left: 10rem;
+   height: 350px;
+  width: 350px;
+}
+.insta-mart-form {
+  position: absolute;
+  top:25rem;
+  left: 32rem;
+   height: 350px;
+  width: 350px;
+}
+
+.dine-out-form {
+  position: absolute;
+  top:25rem;
+  right: 8rem;
+   height: 350px;
+  width: 350px;
+}
+
+ .location-icon{
+  position: absolute;
+  top: 20.2rem;
+  left: 11rem;
+  height: 25px;
+  width: 250px;
+  padding: 10px;
+  color:#fc8019 ;
+ }
          
