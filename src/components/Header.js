@@ -19,7 +19,7 @@ function Header() {
         className="partnerwith-url"
         href="https://partner.swiggy.com/login#/swiggy"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopeneddr noreferrer"
       >
         Partner with us
       </a>
